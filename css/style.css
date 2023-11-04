@@ -1,0 +1,70 @@
+.background {
+	background-image: url("../images/sea.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 3400px;
+	width: 100%;
+
+}
+
+.sun {
+	width: 600px;
+	height: 600px;
+	margin-top: 3px;
+	position: relative;
+	animation: sun 7s infinite ;
+	animation-direction: alternate;
+}
+
+@keyframes sun {
+	0% {left: 100px;}
+	100% {left: 200px;}
+}
+
+.cloud1 {
+	animation: cloud1 15s infinite ;
+	width: 1200px;
+	position: relative;
+	animation-direction: alternate;
+}
+
+@keyframes cloud1 {
+	0% {left: 20px;}
+	100% {left: 1800px;}
+}
+
+.cloud2 {
+		animation: cloud2 25s infinite ;
+		width: 800px;
+		position: relative;
+		animation-direction: alternate;
+}
+
+@keyframes cloud2 {
+	0% {top:700px; right: 50px}
+	100% {top:700px; right: 1500px}
+}
+
+.boat{
+		animation: boat 35s infinite ;
+		width: 800px;
+		position: relative;
+}
+
+@keyframes boat {
+	0% {top:1300px; right: 50px}
+	100% {top:1500px; right: 2000px}
+}
+
+.bird{
+		animation: bird 20s infinite ;
+		width: 200px;
+		position: relative;
+		transform: rotate(-39deg);
+}
+
+@keyframes bird {
+	0% {top: 800px; right: 0px}
+	100% {top:300px; right: 3800px}
+}
